@@ -161,8 +161,8 @@ class OutlineIoUAnalyzer:
 
         # 表示設定
         plt.title(kwargs.get("title", f"Scatter and Outline (IoU = {self.iou:.3f})"))
-        plt.xlabel(kwargs.get("xlabel", "X軸"))
-        plt.ylabel(kwargs.get("ylabel", "Y軸"))
+        plt.xlabel(kwargs.get("xlabel", "X"))
+        plt.ylabel(kwargs.get("ylabel", "Y"))
         plt.legend()
         plt.grid(True)
         plt.axis("equal")
