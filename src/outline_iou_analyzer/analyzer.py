@@ -160,7 +160,7 @@ class OutlineIoUAnalyzer:
             plt.plot(self.target[simplex, 0], self.target[simplex, 1], "g-", linewidth=2)
 
         # 表示設定
-        plt.title(kwargs.get("title", f"2群の散布図と凸包 (IoU = {self.iou:.3f})"))
+        plt.title(kwargs.get("title", f"Scatter and Outline (IoU = {self.iou:.3f})"))
         plt.xlabel(kwargs.get("xlabel", "X軸"))
         plt.ylabel(kwargs.get("ylabel", "Y軸"))
         plt.legend()
